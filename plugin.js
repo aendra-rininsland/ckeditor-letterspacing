@@ -33,7 +33,6 @@ CKEDITOR.plugins.add( 'letterspacing', {
             editor.fire('saveSnapshot');
             var ep = editor.elementPath();
             var style = new CKEDITOR.style({styles: {'letter-spacing': value}});
-            console.dir(style);
             editor[style.checkActive(ep) ? 'removeStyle' : 'applyStyle' ](style);
             
             editor.fire('saveSnapshot');
