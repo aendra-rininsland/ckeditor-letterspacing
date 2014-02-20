@@ -1,5 +1,5 @@
 # Letter-spacing for CKEditor 4
-## [Ændrew Rininsland](http://www.twitter.com/aendrew)
+#### By [Ændrew Rininsland](http://www.twitter.com/aendrew) / [Times Digital Development](http://timesdigitaldevelopment.tumblr.com)
 
 This is an ultra-simple plugin for CKEditor 4 that enables users to set the
 letter-spacing CSS attribute on text -- or "tracking", as it's known in the
