@@ -17,8 +17,7 @@ CKEDITOR.plugins.add( 'letterspacing', {
           multiSelect: false,
           
           panel: {
-            css : [ config.contentsCss, CKEDITOR.getUrl( CKEDITOR.skin.getPath('editor') + 'editor.css' ) ],
-            voiceLabel : lang.panelVoiceLabel
+            css : [ config.contentsCss, CKEDITOR.getUrl( CKEDITOR.skin.getPath('editor') + 'editor.css' ) ]
           },
           
           init: function() {
