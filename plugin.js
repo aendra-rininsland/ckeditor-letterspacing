@@ -12,9 +12,9 @@ CKEDITOR.plugins.add( 'letterspacing', {
         }
 
         editor.ui.addRichCombo('letterspacing', {
-          label: 'Tracking',
-          title: 'Change letter-spacing',
-          voiceLabel: 'Change letter-spacing',
+          label: editor.lang.letterspacing.label,
+          title: editor.lang.letterspacing.title,
+          voiceLabel: editor.lang.letterspacing.voiceLabel,
           className: 'cke_format',
           multiSelect: false,
 
